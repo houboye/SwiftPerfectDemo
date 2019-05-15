@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-	name: "PerfectTemplate",
+	name: "SwiftPerfectDemo",
 	products: [
 		.executable(name: "SwiftPerfectDemo", targets: ["SwiftPerfectDemo"])
 	],

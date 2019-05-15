@@ -7,7 +7,7 @@
           BuildableIdentifier = "primary"
           BuildableName = "'$(TARGET_NAME)'"
           BlueprintName = "SwiftPerfectDemo"
-          ReferencedContainer = "container:PerfectTemplate.xcodeproj">
+          ReferencedContainer = "container:SwiftPerfectDemo.xcodeproj">
         </BuildableReference>
       </BuildActionEntry>
     </BuildActionEntries>
@@ -37,7 +37,7 @@
          BuildableIdentifier = "primary"
          BuildableName = "'$(TARGET_NAME)'"
          BlueprintName = "SwiftPerfectDemo"
-         ReferencedContainer = "container:PerfectTemplate.xcodeproj">
+         ReferencedContainer = "container:SwiftPerfectDemo.xcodeproj">
       </BuildableReference>
    </BuildableProductRunnable>
    <AdditionalOptions>

@@ -66,10 +66,10 @@
             "PerfectLib::SwiftPMPackageDescription",
             "PerfectNet::PerfectNet",
             "PerfectNet::SwiftPMPackageDescription",
-            "PerfectTemplate::SwiftPMPackageDescription",
             "PerfectThread::PerfectThread",
             "PerfectThread::SwiftPMPackageDescription",
-            "PerfectTemplate::SwiftPerfectDemo",
+            "SwiftPerfectDemo::SwiftPerfectDemo",
+            "SwiftPerfectDemo::SwiftPMPackageDescription",
             "SwiftyJSON::SwiftyJSON",
             "SwiftyJSON::SwiftPMPackageDescription"
          );
@@ -1908,17 +1908,17 @@
       "OBJ_359" = {
          isa = "PBXGroup";
          children = (
-            "PerfectTemplate::SwiftPerfectDemo::Product",
-            "PerfectCrypto::PerfectCrypto::Product",
-            "PerfectHTTP::PerfectHTTP::Product",
-            "PerfectNet::PerfectNet::Product",
-            "PerfectLib::PerfectLib::Product",
-            "PerfectCZlib::PerfectCZlib::Product",
-            "PerfectHTTPServer::PerfectHTTPServer::Product",
+            "PerfectHTTPServer::PerfectCHTTPParser::Product",
             "PerfectThread::PerfectThread::Product",
-            "SwiftyJSON::SwiftyJSON::Product",
+            "SwiftPerfectDemo::SwiftPerfectDemo::Product",
+            "PerfectCZlib::PerfectCZlib::Product",
+            "PerfectCrypto::PerfectCrypto::Product",
+            "PerfectNet::PerfectNet::Product",
+            "PerfectHTTP::PerfectHTTP::Product",
             "COpenSSL::COpenSSL::Product",
-            "PerfectHTTPServer::PerfectCHTTPParser::Product"
+            "SwiftyJSON::SwiftyJSON::Product",
+            "PerfectHTTPServer::PerfectHTTPServer::Product",
+            "PerfectLib::PerfectLib::Product"
          );
          name = "Products";
          path = "";
@@ -1966,7 +1966,7 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/COpenSSL_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/COpenSSL_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -2004,7 +2004,7 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/COpenSSL_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/COpenSSL_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -3498,7 +3498,7 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectCHTTPParser_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectCHTTPParser_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -3536,7 +3536,7 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectCHTTPParser_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectCHTTPParser_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -3598,7 +3598,7 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectCZlib_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectCZlib_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -3636,7 +3636,7 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectCZlib_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectCZlib_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -3837,7 +3837,7 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectCrypto_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectCrypto_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -3877,7 +3877,7 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectCrypto_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectCrypto_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -4071,7 +4071,7 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectHTTP_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectHTTP_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -4111,7 +4111,7 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectHTTP_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectHTTP_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -4364,7 +4364,7 @@
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
                "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectHTTPServer_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectHTTPServer_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -4410,7 +4410,7 @@
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
                "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectHTTPServer_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectHTTPServer_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -4709,7 +4709,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectLib_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectLib_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -4751,7 +4751,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectLib_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectLib_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -4913,7 +4913,7 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectNet_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectNet_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -4958,7 +4958,7 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectNet_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectNet_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -5141,60 +5141,104 @@
          isa = "PBXBuildFile";
          fileRef = "OBJ_91";
       };
-      "OBJ_805" = {
+      "OBJ_804" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_806",
-            "OBJ_807"
+            "OBJ_805",
+            "OBJ_806"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_806" = {
+      "OBJ_805" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
             );
-            SWIFT_VERSION = "4.2";
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectThread_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectThread";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "PerfectThread";
          };
          name = "Debug";
       };
-      "OBJ_807" = {
+      "OBJ_806" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
             );
-            SWIFT_VERSION = "4.2";
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/PerfectThread_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "PerfectThread";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "PerfectThread";
          };
          name = "Release";
       };
-      "OBJ_808" = {
+      "OBJ_807" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_809"
+            "OBJ_808",
+            "OBJ_809",
+            "OBJ_810"
          );
+      };
+      "OBJ_808" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_343";
       };
       "OBJ_809" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
+         fileRef = "OBJ_344";
       };
       "OBJ_81" = {
          isa = "PBXFileReference";
@@ -5204,112 +5248,68 @@
          sourceTree = "<group>";
       };
       "OBJ_810" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_345";
+      };
+      "OBJ_811" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_813" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_811",
-            "OBJ_812"
+            "OBJ_814",
+            "OBJ_815"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_811" = {
+      "OBJ_814" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectThread_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
+            LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "PerfectThread";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
             SWIFT_VERSION = "4.0";
-            TARGET_NAME = "PerfectThread";
          };
          name = "Debug";
       };
-      "OBJ_812" = {
+      "OBJ_815" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/PerfectThread_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
+            LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "PerfectThread";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
             SWIFT_VERSION = "4.0";
-            TARGET_NAME = "PerfectThread";
          };
          name = "Release";
       };
-      "OBJ_813" = {
+      "OBJ_816" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_814",
-            "OBJ_815",
-            "OBJ_816"
+            "OBJ_817"
          );
-      };
-      "OBJ_814" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_343";
-      };
-      "OBJ_815" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_344";
-      };
-      "OBJ_816" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_345";
       };
       "OBJ_817" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_346";
       };
       "OBJ_819" = {
          isa = "XCConfigurationList";
@@ -5333,36 +5333,88 @@
       "OBJ_820" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
             );
-            SWIFT_VERSION = "4.0";
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+            );
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/SwiftPerfectDemo_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/module.modulemap",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include/module.modulemap"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "SwiftPerfectDemo";
          };
          name = "Debug";
       };
       "OBJ_821" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
             );
-            SWIFT_VERSION = "4.0";
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+            );
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/SwiftPerfectDemo_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/module.modulemap",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap",
+               "-Xcc",
+               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include/module.modulemap"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "SwiftPerfectDemo";
          };
          name = "Release";
       };
@@ -5374,114 +5426,42 @@
       };
       "OBJ_823" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_346";
+         fileRef = "OBJ_9";
+      };
+      "OBJ_824" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_825",
+            "OBJ_826",
+            "OBJ_827",
+            "OBJ_828",
+            "OBJ_829",
+            "OBJ_830",
+            "OBJ_831",
+            "OBJ_832",
+            "OBJ_833",
+            "OBJ_834"
+         );
       };
       "OBJ_825" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_826",
-            "OBJ_827"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
+         isa = "PBXBuildFile";
+         fileRef = "SwiftyJSON::SwiftyJSON::Product";
       };
       "OBJ_826" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
-            );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/SwiftPerfectDemo_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-Xcc",
-               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/module.modulemap",
-               "-Xcc",
-               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap",
-               "-Xcc",
-               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include/module.modulemap"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "SwiftPerfectDemo";
-         };
-         name = "Debug";
+         isa = "PBXBuildFile";
+         fileRef = "PerfectHTTPServer::PerfectHTTPServer::Product";
       };
       "OBJ_827" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
-            );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/SwiftPerfectDemo_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-Xcc",
-               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/module.modulemap",
-               "-Xcc",
-               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap",
-               "-Xcc",
-               "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include/module.modulemap"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "SwiftPerfectDemo";
-         };
-         name = "Release";
+         isa = "PBXBuildFile";
+         fileRef = "PerfectCZlib::PerfectCZlib::Product";
       };
       "OBJ_828" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_829"
-         );
+         isa = "PBXBuildFile";
+         fileRef = "PerfectHTTP::PerfectHTTP::Product";
       };
       "OBJ_829" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_9";
+         fileRef = "PerfectNet::PerfectNet::Product";
       };
       "OBJ_83" = {
          isa = "PBXGroup";
@@ -5499,55 +5479,40 @@
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_830" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_831",
-            "OBJ_832",
-            "OBJ_833",
-            "OBJ_834",
-            "OBJ_835",
-            "OBJ_836",
-            "OBJ_837",
-            "OBJ_838",
-            "OBJ_839",
-            "OBJ_840"
-         );
-      };
-      "OBJ_831" = {
-         isa = "PBXBuildFile";
-         fileRef = "SwiftyJSON::SwiftyJSON::Product";
-      };
-      "OBJ_832" = {
-         isa = "PBXBuildFile";
-         fileRef = "PerfectHTTPServer::PerfectHTTPServer::Product";
-      };
-      "OBJ_833" = {
-         isa = "PBXBuildFile";
-         fileRef = "PerfectCZlib::PerfectCZlib::Product";
-      };
-      "OBJ_834" = {
-         isa = "PBXBuildFile";
-         fileRef = "PerfectHTTP::PerfectHTTP::Product";
-      };
-      "OBJ_835" = {
-         isa = "PBXBuildFile";
-         fileRef = "PerfectNet::PerfectNet::Product";
-      };
-      "OBJ_836" = {
          isa = "PBXBuildFile";
          fileRef = "PerfectCrypto::PerfectCrypto::Product";
       };
-      "OBJ_837" = {
+      "OBJ_831" = {
          isa = "PBXBuildFile";
          fileRef = "COpenSSL::COpenSSL::Product";
       };
-      "OBJ_838" = {
+      "OBJ_832" = {
          isa = "PBXBuildFile";
          fileRef = "PerfectThread::PerfectThread::Product";
       };
-      "OBJ_839" = {
+      "OBJ_833" = {
          isa = "PBXBuildFile";
          fileRef = "PerfectLib::PerfectLib::Product";
+      };
+      "OBJ_834" = {
+         isa = "PBXBuildFile";
+         fileRef = "PerfectHTTPServer::PerfectCHTTPParser::Product";
+      };
+      "OBJ_835" = {
+         isa = "PBXTargetDependency";
+         target = "SwiftyJSON::SwiftyJSON";
+      };
+      "OBJ_837" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectHTTPServer::PerfectHTTPServer";
+      };
+      "OBJ_838" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectCZlib::PerfectCZlib";
+      };
+      "OBJ_839" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectHTTP::PerfectHTTP";
       };
       "OBJ_84" = {
          isa = "PBXFileReference";
@@ -5555,40 +5520,73 @@
          sourceTree = "<group>";
       };
       "OBJ_840" = {
-         isa = "PBXBuildFile";
-         fileRef = "PerfectHTTPServer::PerfectCHTTPParser::Product";
-      };
-      "OBJ_841" = {
-         isa = "PBXTargetDependency";
-         target = "SwiftyJSON::SwiftyJSON";
-      };
-      "OBJ_843" = {
-         isa = "PBXTargetDependency";
-         target = "PerfectHTTPServer::PerfectHTTPServer";
-      };
-      "OBJ_844" = {
-         isa = "PBXTargetDependency";
-         target = "PerfectCZlib::PerfectCZlib";
-      };
-      "OBJ_845" = {
-         isa = "PBXTargetDependency";
-         target = "PerfectHTTP::PerfectHTTP";
-      };
-      "OBJ_846" = {
          isa = "PBXTargetDependency";
          target = "PerfectNet::PerfectNet";
       };
-      "OBJ_847" = {
+      "OBJ_841" = {
          isa = "PBXTargetDependency";
          target = "PerfectCrypto::PerfectCrypto";
       };
-      "OBJ_848" = {
+      "OBJ_842" = {
          isa = "PBXTargetDependency";
          target = "COpenSSL::COpenSSL";
       };
-      "OBJ_849" = {
+      "OBJ_843" = {
          isa = "PBXTargetDependency";
          target = "PerfectThread::PerfectThread";
+      };
+      "OBJ_844" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectLib::PerfectLib";
+      };
+      "OBJ_845" = {
+         isa = "PBXTargetDependency";
+         target = "PerfectHTTPServer::PerfectCHTTPParser";
+      };
+      "OBJ_847" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_848",
+            "OBJ_849"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_848" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Debug";
+      };
+      "OBJ_849" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Release";
       };
       "OBJ_85" = {
          isa = "PBXFileReference";
@@ -5596,12 +5594,14 @@
          sourceTree = "<group>";
       };
       "OBJ_850" = {
-         isa = "PBXTargetDependency";
-         target = "PerfectLib::PerfectLib";
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_851"
+         );
       };
       "OBJ_851" = {
-         isa = "PBXTargetDependency";
-         target = "PerfectHTTPServer::PerfectCHTTPParser";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
       };
       "OBJ_852" = {
          isa = "XCConfigurationList";
@@ -5623,7 +5623,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/SwiftyJSON_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/SwiftyJSON_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
@@ -5664,7 +5664,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "PerfectTemplate.xcodeproj/SwiftyJSON_Info.plist";
+            INFOPLIST_FILE = "SwiftPerfectDemo.xcodeproj/SwiftyJSON_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
@@ -6081,53 +6081,12 @@
          productName = "PerfectNetPackageDescription";
          productType = "com.apple.product-type.framework";
       };
-      "PerfectTemplate::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_805";
-         buildPhases = (
-            "OBJ_808"
-         );
-         dependencies = (
-         );
-         name = "PerfectTemplatePackageDescription";
-         productName = "PerfectTemplatePackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
-      "PerfectTemplate::SwiftPerfectDemo" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_825";
-         buildPhases = (
-            "OBJ_828",
-            "OBJ_830"
-         );
-         dependencies = (
-            "OBJ_841",
-            "OBJ_843",
-            "OBJ_844",
-            "OBJ_845",
-            "OBJ_846",
-            "OBJ_847",
-            "OBJ_848",
-            "OBJ_849",
-            "OBJ_850",
-            "OBJ_851"
-         );
-         name = "SwiftPerfectDemo";
-         productName = "SwiftPerfectDemo";
-         productReference = "PerfectTemplate::SwiftPerfectDemo::Product";
-         productType = "com.apple.product-type.tool";
-      };
-      "PerfectTemplate::SwiftPerfectDemo::Product" = {
-         isa = "PBXFileReference";
-         path = "SwiftPerfectDemo";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
       "PerfectThread::PerfectThread" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_810";
+         buildConfigurationList = "OBJ_804";
          buildPhases = (
-            "OBJ_813",
-            "OBJ_817"
+            "OBJ_807",
+            "OBJ_811"
          );
          dependencies = (
          );
@@ -6143,15 +6102,56 @@
       };
       "PerfectThread::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_819";
+         buildConfigurationList = "OBJ_813";
          buildPhases = (
-            "OBJ_822"
+            "OBJ_816"
          );
          dependencies = (
          );
          name = "PerfectThreadPackageDescription";
          productName = "PerfectThreadPackageDescription";
          productType = "com.apple.product-type.framework";
+      };
+      "SwiftPerfectDemo::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_847";
+         buildPhases = (
+            "OBJ_850"
+         );
+         dependencies = (
+         );
+         name = "SwiftPerfectDemoPackageDescription";
+         productName = "SwiftPerfectDemoPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "SwiftPerfectDemo::SwiftPerfectDemo" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_819";
+         buildPhases = (
+            "OBJ_822",
+            "OBJ_824"
+         );
+         dependencies = (
+            "OBJ_835",
+            "OBJ_837",
+            "OBJ_838",
+            "OBJ_839",
+            "OBJ_840",
+            "OBJ_841",
+            "OBJ_842",
+            "OBJ_843",
+            "OBJ_844",
+            "OBJ_845"
+         );
+         name = "SwiftPerfectDemo";
+         productName = "SwiftPerfectDemo";
+         productReference = "SwiftPerfectDemo::SwiftPerfectDemo::Product";
+         productType = "com.apple.product-type.tool";
+      };
+      "SwiftPerfectDemo::SwiftPerfectDemo::Product" = {
+         isa = "PBXFileReference";
+         path = "SwiftPerfectDemo";
+         sourceTree = "BUILT_PRODUCTS_DIR";
       };
       "SwiftyJSON::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
